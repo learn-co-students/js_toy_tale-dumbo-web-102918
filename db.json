@@ -47,6 +47,23 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": -2
+    },
+    {
+      "name": "box",
+      "image": "https://5.imimg.com/data5/CK/AS/MY-60212530/9-ply-duplex-box-500x500.jpg",
+      "id": 9
+    },
+    {
+      "name": "kitty",
+      "image": "https://i.ytimg.com/vi/dGFSjKuJfrI/maxresdefault.jpg",
+      "likes": 0,
+      "id": 10
+    },
+    {
+      "name": "pokemon",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+      "likes": 0,
+      "id": 11
     }
   ]
 }
