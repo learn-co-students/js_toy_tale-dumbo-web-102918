@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    
+
     <div id='toy-header'>
       <img src="https://fontmeme.com/permalink/180719/67429e6afec53d21d64643101c43f029.png" alt="toy-header">
     </div>
@@ -15,18 +15,31 @@
     <div class="container">
       <form class="add-toy-form" style="">
         <h3>Create a toy!</h3>
-
-        <input type="text" name="name" value="" placeholder="Enter a toy's name..." class="input-text">
+        <input type="hidden" id="new-toy-id">
+        <input type="text" name="name" value="" placeholder="Enter a toy's name..." class="input-text" id="input-name">
         <br>
-        <input type="text" name="image" value="" placeholder="Enter a toy's image URL..." class="input-text">
+        <input type="text" name="image" value="" placeholder="Enter a toy's image URL..." class="input-text" id="input-image">
         <br>
         <input type="submit" name="submit" value="Create New Toy" class="submit">
       </form>
+
+      <form class="edit-toy-form" style="">
+        <h3>Edit a toy!</h3>
+        <input type="hidden" id="edit-toy-id">
+        <input type="text" name="name" value="" class="input-text" id="edit-name">
+        <br>
+        <input type="text" name="image" value="" class="input-text" id="edit-image">
+        <br>
+        <input type="submit" name="submit" value="Edit Toy" class="submit">
+      </form>
     </div>
+
+
     <p style='text-align:center' >Andy needs your help! <button id='new-toy-btn'>Add a new toy!</button></p>
 
 
     <div id="toy-collection">
+
     </div>
 
 
